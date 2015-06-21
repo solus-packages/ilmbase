@@ -1,0 +1,49 @@
+<PISI>
+    <Source>
+        <Name>ilmbase</Name>
+        <Packager>
+            <Name>Solus Packaging Team</Name>
+            <Email>packaging@solus-project.com</Email>
+        </Packager>
+        <License>BSD-3-Clause</License>
+        <Summary xml:lang="en">Base libraries from ILM for OpenEXR</Summary>
+        <Description xml:lang="en">Base libraries from ILM for OpenEXR
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>ilmbase</Name>
+        <Summary xml:lang="en">Base libraries from ILM for OpenEXR</Summary>
+        <Description xml:lang="en">Base libraries from ILM for OpenEXR
+</Description>
+        <PartOf>desktop.multimedia</PartOf>
+        <Files>
+            <Path fileType="library">/usr/lib64/lib*.so.*</Path>
+        </Files>
+    </Package>
+    <Package>
+        <Name>ilmbase-devel</Name>
+        <Summary xml:lang="en">Development files for ilmbase</Summary>
+        <Description xml:lang="en">Base libraries from ILM for OpenEXR
+</Description>
+        <PartOf>programming.devel</PartOf>
+        <RuntimeDependencies>
+            <Dependency release="current">ilmbase</Dependency>
+        </RuntimeDependencies>
+        <Files>
+            <Path fileType="library">/usr/lib64/lib*.a</Path>
+            <Path fileType="library">/usr/lib64/lib*.so</Path>
+            <Path fileType="data">/usr/lib64/pkgconfig</Path>
+            <Path fileType="header">/usr/include</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2015-06-21</Date>
+            <Version>2.2.0</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Solus Packaging Team</Name>
+            <Email>packaging@solus-project.com</Email>
+        </Update>
+    </History>
+</PISI>
