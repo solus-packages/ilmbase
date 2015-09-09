@@ -1,14 +1,12 @@
 name       : ilmbase
 version    : 2.2.0
-release    : 1
+release    : 2
 source     :
     - http://ftp.yzu.edu.tw/nongnu//openexr/ilmbase-2.2.0.tar.gz : ecf815b60695555c1fbc73679e84c7c9902f4e8faa6e8000d2f905b8b86cedc7
 license    : BSD-3-Clause
 summary    : Base libraries from ILM for OpenEXR
 description: |
     Base libraries from ILM for OpenEXR
-builddeps  :
-clang      : no
 setup      : |
     %configure
 build      : |
