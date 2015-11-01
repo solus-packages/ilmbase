@@ -2,8 +2,8 @@
     <Source>
         <Name>ilmbase</Name>
         <Packager>
-            <Name>Justin Zobel</Name>
-            <Email>justin@solus-project.com</Email>
+            <Name>Ikey Doherty</Name>
+            <Email>ikey@solus-project.com</Email>
         </Packager>
         <License>BSD-3-Clause</License>
         <Summary xml:lang="en">Base libraries from ILM for OpenEXR</Summary>
@@ -32,18 +32,17 @@
         </RuntimeDependencies>
         <Files>
             <Path fileType="header">/usr/include</Path>
-            <Path fileType="library">/usr/lib64/lib*.a</Path>
             <Path fileType="library">/usr/lib64/lib*.so</Path>
             <Path fileType="data">/usr/lib64/pkgconfig</Path>
         </Files>
     </Package>
     <History>
-        <Update release="2">
-            <Date>2015-09-09</Date>
+        <Update release="3">
+            <Date>2015-11-01</Date>
             <Version>2.2.0</Version>
             <Comment>Packaging update</Comment>
-            <Name>Justin Zobel</Name>
-            <Email>justin@solus-project.com</Email>
+            <Name>Ikey Doherty</Name>
+            <Email>ikey@solus-project.com</Email>
         </Update>
     </History>
 </PISI>
