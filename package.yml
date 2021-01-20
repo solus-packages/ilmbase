@@ -1,18 +1,22 @@
 name       : ilmbase
-version    : 2.3.0
-release    : 6
+version    : 2.5.4
+release    : 7
 source     :
-    - https://github.com/openexr/openexr/releases/download/v2.3.0/ilmbase-2.3.0.tar.gz : 456978d1a978a5f823c7c675f3f36b0ae14dba36638aeaa3c4b0e784f12a3862
+    - https://github.com/AcademySoftwareFoundation/openexr/archive/v2.5.4.tar.gz : dba19e9c6720c6f64fbc8b9d1867eaa75da6438109b941eefdc75ed141b6576d
 license    : BSD-3-Clause
 component  : multimedia.library
 summary    : Base libraries from ILM for OpenEXR
 description: |
-    Base libraries from ILM for OpenEXR
+    Base libraries from ILM (Industrial Light & Magic) software for OpenEXR.
 setup      : |
-    %configure --disable-static
+    cd IlmBase
+    %cmake_ninja
 build      : |
-    %make
+    cd IlmBase
+    %ninja_build
 install    : |
-    %make_install
+    cd IlmBase
+    %ninja_install
 check      : |
-    %make check
+    cd IlmBase
+    %ninja_check
