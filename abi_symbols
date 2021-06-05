@@ -2,7 +2,9 @@ libHalf-2_5.so.25:_Z9printBitsPc4half
 libHalf-2_5.so.25:_Z9printBitsPcf
 libHalf-2_5.so.25:_Z9printBitsRSo4half
 libHalf-2_5.so.25:_Z9printBitsRSof
+libHalf-2_5.so.25:_ZN4half5_eLutE
 libHalf-2_5.so.25:_ZN4half7convertEi
+libHalf-2_5.so.25:_ZN4half8_toFloatE
 libHalf-2_5.so.25:_ZN4half8overflowEv
 libHalf-2_5.so.25:_ZlsRSo4half
 libHalf-2_5.so.25:_ZrsRSiR4half
@@ -3027,6 +3029,12 @@ libImath-2_5.so.25:_ZN9Imath_2_511NullQuatExcD1Ev
 libImath-2_5.so.25:_ZN9Imath_2_511NullQuatExcD2Ev
 libImath-2_5.so.25:_ZN9Imath_2_511NullQuatExcaSEOS0_
 libImath-2_5.so.25:_ZN9Imath_2_511NullQuatExcaSERS0_
+libImath-2_5.so.25:_ZN9Imath_2_511identity22dE
+libImath-2_5.so.25:_ZN9Imath_2_511identity22fE
+libImath-2_5.so.25:_ZN9Imath_2_511identity33dE
+libImath-2_5.so.25:_ZN9Imath_2_511identity33fE
+libImath-2_5.so.25:_ZN9Imath_2_511identity44dE
+libImath-2_5.so.25:_ZN9Imath_2_511identity44fE
 libImath-2_5.so.25:_ZN9Imath_2_512ZeroScaleExcC1EOS0_
 libImath-2_5.so.25:_ZN9Imath_2_512ZeroScaleExcC1EPKc
 libImath-2_5.so.25:_ZN9Imath_2_512ZeroScaleExcC1ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
